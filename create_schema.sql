@@ -181,7 +181,7 @@ VALUES
 ("45", "CommArt", "Seymour Butts", 34);
 
 INSERT INTO CourseInstance(
-CID, Semester, Year, SID, IsOpen, BID, RoomNumber
+  CID, Semester, Year, SID, IsOpen, BID, RoomNumber
 )
 VALUES
 ("CS1", "FALL", "2016", "20",0, "46", "20"),
