@@ -80,7 +80,6 @@ CREATE TABLE Room(
 
 
 
-
 INSERT INTO Department (DID, Name, Address) VALUES ("CompSci", "Computer Science", "1210 W Dayton Street"),("Geog", "Geology", "221B Baker Street"),("Math", "Math", "123 Charter Street"),("SocSci", "Social Science", "100 Observatory"),("Soil", "Soil Science", "200 Dirt Road"),("CommArt", "Comm Arts", "420 Blabber Way"),("Edu", "Education", "178 Learning Drive"),("Med", "Medicine", "564 Help Me Street"),("Econ", "Economics", "678 School Road"),("Art", "Art", "654 Artsy Lane");
 
 INSERT INTO Student (
@@ -103,6 +102,8 @@ INSERT INTO Takes (
 )
 VALUES
 ("1", "CS1", "FALL", "2017"),
+("1", "ART1", "FALL", "2017"),
+("1", "MATH1", "FALL", "2017"),
 ("2", "CS1", "FALL", "2017"),
 ("3", "CS1", "FALL", "2017"),
 ("4", "ART1", "FALL", "2017"),
@@ -193,6 +194,7 @@ VALUES
 ("CS5", "FALL", "2018", "20",0, "54", "5"),
 ("CS10", "SPRING", "2020", "20" ,0, "55", "2"),
 ("ART1", "FALL", "2017", "29", 1, "47", "22"),
+("MATH1", "FALL", "2017", "30", 1, "46", "20")
 ("MATH1", "SPRING", "2014", "22" ,0,"46", "20"),
 ("SOCSCI1", "FALL", "2015", "23",0, "46", "21"),
 ("COMMART1", "SPRING", "2016", "25", 0 , "50", "30"),
